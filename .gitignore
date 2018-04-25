@@ -22,6 +22,9 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+## Firebase PLIST
+*.plist
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa

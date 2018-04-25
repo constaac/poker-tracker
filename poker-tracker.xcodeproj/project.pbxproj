@@ -17,6 +17,7 @@
 		A4A13A4E20911105007340C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A13A4C20911105007340C6 /* LaunchScreen.storyboard */; };
 		A4A13A5920911105007340C6 /* poker_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A5820911105007340C6 /* poker_trackerTests.swift */; };
 		A4A13A6420911106007340C6 /* poker_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A6320911106007340C6 /* poker_trackerUITests.swift */; };
+		A4A13A7220911237007340C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A13A7120911237007340C6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A4A13A5F20911106007340C6 /* poker-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poker-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A13A6320911106007340C6 /* poker_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poker_trackerUITests.swift; sourceTree = "<group>"; };
 		A4A13A6520911106007340C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A13A7120911237007340C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A5443B52861CD40798842D3A /* Pods-poker-trackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poker-trackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-poker-trackerUITests/Pods-poker-trackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AC3D2E81B40402FBAA10F9B1 /* Pods_poker_trackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poker_trackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E8E93861395FF625DFAE57 /* Pods-poker-trackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poker-trackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poker-trackerTests/Pods-poker-trackerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				A4A13A4A20911105007340C6 /* Assets.xcassets */,
 				A4A13A4C20911105007340C6 /* LaunchScreen.storyboard */,
 				A4A13A4F20911105007340C6 /* Info.plist */,
+				A4A13A7120911237007340C6 /* GoogleService-Info.plist */,
 			);
 			path = "poker-tracker";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A13A4E20911105007340C6 /* LaunchScreen.storyboard in Resources */,
+				A4A13A7220911237007340C6 /* GoogleService-Info.plist in Resources */,
 				A4A13A4B20911105007340C6 /* Assets.xcassets in Resources */,
 				A4A13A4920911105007340C6 /* Main.storyboard in Resources */,
 			);
