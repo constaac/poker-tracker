@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A13A4420911105007340C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A4320911105007340C6 /* AppDelegate.swift */; };
+		A4A13A4620911105007340C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A4520911105007340C6 /* ViewController.swift */; };
+		A4A13A4920911105007340C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A13A4720911105007340C6 /* Main.storyboard */; };
+		A4A13A4B20911105007340C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A13A4A20911105007340C6 /* Assets.xcassets */; };
+		A4A13A4E20911105007340C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A13A4C20911105007340C6 /* LaunchScreen.storyboard */; };
+		A4A13A5920911105007340C6 /* poker_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A5820911105007340C6 /* poker_trackerTests.swift */; };
+		A4A13A6420911106007340C6 /* poker_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A13A6320911106007340C6 /* poker_trackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A13A5520911105007340C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A13A3820911105007340C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A13A3F20911105007340C6;
+			remoteInfo = "poker-tracker";
+		};
+		A4A13A6020911106007340C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A13A3820911105007340C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A13A3F20911105007340C6;
+			remoteInfo = "poker-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A13A4020911105007340C6 /* poker-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poker-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A13A4320911105007340C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4A13A4520911105007340C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4A13A4820911105007340C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4A13A4A20911105007340C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4A13A4D20911105007340C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4A13A4F20911105007340C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A13A5420911105007340C6 /* poker-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poker-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A13A5820911105007340C6 /* poker_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poker_trackerTests.swift; sourceTree = "<group>"; };
+		A4A13A5A20911105007340C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A13A5F20911106007340C6 /* poker-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poker-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A13A6320911106007340C6 /* poker_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poker_trackerUITests.swift; sourceTree = "<group>"; };
+		A4A13A6520911106007340C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A13A3D20911105007340C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5120911105007340C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5C20911106007340C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A13A3720911105007340C6 = {
+			isa = PBXGroup;
+			children = (
+				A4A13A4220911105007340C6 /* poker-tracker */,
+				A4A13A5720911105007340C6 /* poker-trackerTests */,
+				A4A13A6220911106007340C6 /* poker-trackerUITests */,
+				A4A13A4120911105007340C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A13A4120911105007340C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A13A4020911105007340C6 /* poker-tracker.app */,
+				A4A13A5420911105007340C6 /* poker-trackerTests.xctest */,
+				A4A13A5F20911106007340C6 /* poker-trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A13A4220911105007340C6 /* poker-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				A4A13A4320911105007340C6 /* AppDelegate.swift */,
+				A4A13A4520911105007340C6 /* ViewController.swift */,
+				A4A13A4720911105007340C6 /* Main.storyboard */,
+				A4A13A4A20911105007340C6 /* Assets.xcassets */,
+				A4A13A4C20911105007340C6 /* LaunchScreen.storyboard */,
+				A4A13A4F20911105007340C6 /* Info.plist */,
+			);
+			path = "poker-tracker";
+			sourceTree = "<group>";
+		};
+		A4A13A5720911105007340C6 /* poker-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A13A5820911105007340C6 /* poker_trackerTests.swift */,
+				A4A13A5A20911105007340C6 /* Info.plist */,
+			);
+			path = "poker-trackerTests";
+			sourceTree = "<group>";
+		};
+		A4A13A6220911106007340C6 /* poker-trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A13A6320911106007340C6 /* poker_trackerUITests.swift */,
+				A4A13A6520911106007340C6 /* Info.plist */,
+			);
+			path = "poker-trackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A13A3F20911105007340C6 /* poker-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A13A6820911106007340C6 /* Build configuration list for PBXNativeTarget "poker-tracker" */;
+			buildPhases = (
+				A4A13A3C20911105007340C6 /* Sources */,
+				A4A13A3D20911105007340C6 /* Frameworks */,
+				A4A13A3E20911105007340C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poker-tracker";
+			productName = "poker-tracker";
+			productReference = A4A13A4020911105007340C6 /* poker-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A13A5320911105007340C6 /* poker-trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A13A6B20911106007340C6 /* Build configuration list for PBXNativeTarget "poker-trackerTests" */;
+			buildPhases = (
+				A4A13A5020911105007340C6 /* Sources */,
+				A4A13A5120911105007340C6 /* Frameworks */,
+				A4A13A5220911105007340C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A13A5620911105007340C6 /* PBXTargetDependency */,
+			);
+			name = "poker-trackerTests";
+			productName = "poker-trackerTests";
+			productReference = A4A13A5420911105007340C6 /* poker-trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4A13A5E20911106007340C6 /* poker-trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A13A6E20911106007340C6 /* Build configuration list for PBXNativeTarget "poker-trackerUITests" */;
+			buildPhases = (
+				A4A13A5B20911106007340C6 /* Sources */,
+				A4A13A5C20911106007340C6 /* Frameworks */,
+				A4A13A5D20911106007340C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A13A6120911106007340C6 /* PBXTargetDependency */,
+			);
+			name = "poker-trackerUITests";
+			productName = "poker-trackerUITests";
+			productReference = A4A13A5F20911106007340C6 /* poker-trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A13A3820911105007340C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alex Constantine";
+				TargetAttributes = {
+					A4A13A3F20911105007340C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A4A13A5320911105007340C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4A13A3F20911105007340C6;
+					};
+					A4A13A5E20911106007340C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4A13A3F20911105007340C6;
+					};
+				};
+			};
+			buildConfigurationList = A4A13A3B20911105007340C6 /* Build configuration list for PBXProject "poker-tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A13A3720911105007340C6;
+			productRefGroup = A4A13A4120911105007340C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A13A3F20911105007340C6 /* poker-tracker */,
+				A4A13A5320911105007340C6 /* poker-trackerTests */,
+				A4A13A5E20911106007340C6 /* poker-trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A13A3E20911105007340C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A13A4E20911105007340C6 /* LaunchScreen.storyboard in Resources */,
+				A4A13A4B20911105007340C6 /* Assets.xcassets in Resources */,
+				A4A13A4920911105007340C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5220911105007340C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5D20911106007340C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A13A3C20911105007340C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A13A4620911105007340C6 /* ViewController.swift in Sources */,
+				A4A13A4420911105007340C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5020911105007340C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A13A5920911105007340C6 /* poker_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A13A5B20911106007340C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A13A6420911106007340C6 /* poker_trackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A13A5620911105007340C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A13A3F20911105007340C6 /* poker-tracker */;
+			targetProxy = A4A13A5520911105007340C6 /* PBXContainerItemProxy */;
+		};
+		A4A13A6120911106007340C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A13A3F20911105007340C6 /* poker-tracker */;
+			targetProxy = A4A13A6020911106007340C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4A13A4720911105007340C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A13A4820911105007340C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4A13A4C20911105007340C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A13A4D20911105007340C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4A13A6620911106007340C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4A13A6720911106007340C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A13A6920911106007340C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4A13A6A20911106007340C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4A13A6C20911106007340C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poker-tracker.app/poker-tracker";
+			};
+			name = Debug;
+		};
+		A4A13A6D20911106007340C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poker-tracker.app/poker-tracker";
+			};
+			name = Release;
+		};
+		A4A13A6F20911106007340C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poker-tracker";
+			};
+			name = Debug;
+		};
+		A4A13A7020911106007340C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3MF736FD;
+				INFOPLIST_FILE = "poker-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexconstantine.poker-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poker-tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A13A3B20911105007340C6 /* Build configuration list for PBXProject "poker-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A13A6620911106007340C6 /* Debug */,
+				A4A13A6720911106007340C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A13A6820911106007340C6 /* Build configuration list for PBXNativeTarget "poker-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A13A6920911106007340C6 /* Debug */,
+				A4A13A6A20911106007340C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A13A6B20911106007340C6 /* Build configuration list for PBXNativeTarget "poker-trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A13A6C20911106007340C6 /* Debug */,
+				A4A13A6D20911106007340C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A13A6E20911106007340C6 /* Build configuration list for PBXNativeTarget "poker-trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A13A6F20911106007340C6 /* Debug */,
+				A4A13A7020911106007340C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A13A3820911105007340C6 /* Project object */;
+}
