@@ -1,0 +1,6 @@
+framework module Pods_poker_trackerTests {
+  umbrella header "Pods-poker-trackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
