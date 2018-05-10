@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,45 +15,25 @@
             <objects>
                 <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeVC" customModule="poker_tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Poker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkg-8r-APz">
-                                <rect key="frame" x="100" y="143" width="175" height="127"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poker Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkw-yV-qMh">
+                                <rect key="frame" x="0.0" y="59" width="375" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="OSB-tw-8lA"/>
+                                    <constraint firstAttribute="width" constant="193" id="Ndm-to-Bhq"/>
+                                    <constraint firstAttribute="height" constant="45" id="gTE-6l-HNy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="38"/>
+                                <color key="textColor" red="0.4129695595854922" green="0.098612215665976014" blue="0.066909103858202784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVs-rX-V0B">
-                                <rect key="frame" x="20" y="50" width="52" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="8aN-Ud-bvO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Nav">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="navButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GVO-rH-MUU"/>
-                                </connections>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EhD-jn-Nzt">
-                                <rect key="frame" x="0.0" y="296" width="375" height="371"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.61524649572242074" blue="0.5407396273220374" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="kkg-8r-APz" firstAttribute="top" secondItem="nVs-rX-V0B" secondAttribute="bottom" constant="180" id="0TB-M2-Ayc"/>
-                            <constraint firstItem="kkg-8r-APz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Jee-zD-a0a"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kkg-8r-APz" secondAttribute="trailing" constant="100" id="M9h-2B-udG"/>
-                            <constraint firstItem="nVs-rX-V0B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MOb-Me-feM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kkg-8r-APz" secondAttribute="bottom" constant="260" id="NUv-7M-dIO"/>
-                            <constraint firstItem="nVs-rX-V0B" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="h0m-Fq-Q7m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kkw-yV-qMh" secondAttribute="trailing" id="dhS-Ig-wWN"/>
+                            <constraint firstItem="kkw-yV-qMh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="dhg-4I-tVc"/>
+                            <constraint firstItem="kkw-yV-qMh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vPj-VY-9dE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -67,14 +47,14 @@
             <objects>
                 <viewController storyboardIdentifier="LeftSidePanelVC" id="zUs-GT-MPD" customClass="LeftSidePanelVC" customModule="poker_tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="amo-rn-wV5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRu-rl-QFD">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRA-vE-Esb">
-                                        <rect key="frame" x="15" y="44" width="83.5" height="41"/>
+                                        <rect key="frame" x="15" y="44" width="83.666666666666671" height="41"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -111,7 +91,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uY-Db-TN1">
-                                <rect key="frame" x="15" y="582" width="86" height="55"/>
+                                <rect key="frame" x="15" y="693" width="86" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="j7q-JY-wKd"/>
                                 </constraints>
@@ -159,17 +139,17 @@
             <objects>
                 <viewController storyboardIdentifier="CareerVC" id="bvB-kt-ht9" customClass="CareerVC" customModule="poker_tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uK5-GZ-W2j">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAREEER PAGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAc-qO-Tkq">
-                                <rect key="frame" x="100" y="160" width="175" height="20.5"/>
+                                <rect key="frame" x="100" y="184" width="175" height="20.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5L-8r-QwR">
-                                <rect key="frame" x="25" y="35" width="30" height="30"/>
+                                <rect key="frame" x="25" y="59" width="30" height="30"/>
                                 <state key="normal" title="NAV"/>
                                 <connections>
                                     <action selector="navButtonPressed:" destination="bvB-kt-ht9" eventType="touchUpInside" id="3WC-U9-KLk"/>
